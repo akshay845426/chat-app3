@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #username-section {
+    text-align: center;
+  }
+  
+  #username {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  #join-btn {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #chat-section {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  #message-section {
+    display: flex;
+  }
+  
+  #chat-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #send-btn {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #emoji-picker {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #emoji-btn {
+    font-size: 24px;
+    padding: 10px;
+  }
+  
+  .emoji {
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
